@@ -191,3 +191,13 @@
     text-align: center;
     padding: 20px;
   }
+
+@media (max-width: 768px) {
+    /* Селектор элемента фона */
+    .background-video {
+        background: url('path/to/vertical-video.mp4') no-repeat center center;
+        background-size: cover;
+        /* Для корректного воспроизведения можно использовать object-fit */
+        object-fit: cover;
+    }
+}
